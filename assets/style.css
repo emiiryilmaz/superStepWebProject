@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+}
+
+ul,ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p{
+    margin: 0;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    margin:auto;
+}
+/*header*/
+.header{
+    border-bottom: 1px solid #dee0ea;
+}
+.global-notification{
+    background-color: #000;
+    padding: 2px;
+    height: 16px;
+    text-align: center;
+    font-size: 10px;
+    color: aliceblue;
+}
+img{
+    max-width: 100%;
+}
+.header-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left{
+
+    width: 25%;
+    float: left;
+    position: relative;
+    
+}
+.header-row{
+    height: 90px;
+    align-items: center;
+}
+.header-center .navigation .menu-list{
+    display: flex;
+}
+*{
+    box-sizing: border-box;    
+    }
+    
+    .imgcontainer{
+        width: 16.66666667%;
+        min-height: 1px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin: 0;
+        padding: 0;
+        border: 0;
+        float: left;
+    }
+    
+    .img::after{
+    content:"";
+    clear: both;
+    display: table;
+    
+    
+    }
+    
+    img{
+    display: block;
+    max-width: 100%;
+    }
+    
+    h3{
+    
+        font-size: 34px;
+        font-family: 'Roboto-Bold';
+        text-align: center;
+        padding: 20px 6px 38px 6px;
+        display: block;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+    }
+    
+    span{
+        font: inherit;
+        vertical-align: baseline;
+        font-family:serif;
+        font-size: 18px;
+        text-align: center;
+        text-decoration: none;
+        text-size-adjust: 100%;
+    }
+    a{
+        color:#000;
+        
+        text-decoration: none;
+    }
+    a:hover{
+    
+        text-decoration: underline;
+    }
