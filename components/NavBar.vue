@@ -1,3 +1,6 @@
+
+import { RouterLink } from 'vue-router';
+
 <template>
   <div>
     <header>
@@ -10,7 +13,7 @@
         <div class="header-wrapper">
           <div class="header-left">
             <a href="#" class="logo"></a>
-            <img loading="lazy" src="https://cdn-ss.akinon.net/static_omnishop/super501/assets/img/logo-black.svg"
+            <img loading="lazy" src="https://akn-ss.b-cdn.net/static_omnishop/super522/assets/img/logo-black.svg"
               alt="Super Step" width="200">
           </div>
           <div class="header-center-menu">
@@ -39,7 +42,43 @@
               </nav>
             </div>
           </div>
-          <div class = "header-left">
+          <div class="header-right">
+            <ul class="menu-list">
+              <li class="menu-list-item">
+                <a href="#" class="menu-link">
+                  <img loading="lazy" class="icon-favorite-svg"
+                    src="https://akn-ss.b-cdn.net/static_omnishop/super522/assets/img/header-icons/search.svg"
+                    height="24px">
+                </a>
+              </li>
+              <router-link to="LoginPage">
+                <li class="menu-list-item">
+                  <a href="#" class="menu-link">
+                    <router-link to="LoginPage"></router-link>
+                    <img loading="lazy" class="icon-favorite-svg"
+                      src="https://akn-ss.b-cdn.net/static_omnishop/super522/assets/img/header-icons/user.svg"
+                      height="24px">
+                  </a>
+                </li>
+              </router-link>
+
+              <li class="menu-list-item">
+                <a href="#" class="menu-link">
+                  <img loading="lazy" class="icon-favorite-svg"
+                    src="https://akn-ss.b-cdn.net/static_omnishop/super522/assets/img/header-icons/heart.svg"
+                    height="24px">
+
+                </a>
+              </li>
+              <li class="menu-list-item">
+                <a href="#" class="menu-link">
+                  <img loading="lazy" class="icon-favorite-svg"
+                    src="https://akn-ss.b-cdn.net/static_omnishop/super522/assets/img/header-icons/bag.svg"
+                    height="24px">
+                </a>
+              </li>
+            </ul>
+
           </div>
         </div>
       </div>
